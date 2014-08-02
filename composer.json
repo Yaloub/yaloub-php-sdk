@@ -1,0 +1,24 @@
+{
+	"name": "Yaloub/yaloub-php-sdk",
+	"type": "library",
+	"description": "Yaloub PHP SDK helps with the connection to Yaloub RestFul API.",
+	"keywords": ["sdk", "php", "yaloub"],
+	"homepage": "http://github.com/Yaloub/yaloub-php-sdk",
+	"license": "GPLv2",
+	"authors": [
+		{
+			"name": "Jean-Nicolas Boulay",
+			"email": "jn@yaloub.com",
+			"homepage": "http://github.com/jnbdz",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"Yaloub": "src"
+		}
+	}
+}
